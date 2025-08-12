@@ -3,7 +3,6 @@ from django.urls import reverse
 
 
 class YSSummaryViewTests(SimpleTestCase):
-    """Basic tests for the YS summary view."""
 
     def test_summary_view_returns_text(self):
         url = reverse('ys_summary')
