@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# VEnv
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Django
+*.sqlite3
+/media/
+staticfiles/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (手元で使う環境ファイル類)
+.env
+.env.*
